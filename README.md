@@ -39,7 +39,7 @@ to the `require` section of your `composer.json` file.
 4. Execute sql query
 5. If the returned error, add this errors to validation message
 
-#### Basic usage
+##### Basic usage
 
 ```php
 use ancor\syntaxLint\SqlSyntaxValidator;
@@ -51,7 +51,7 @@ public function rules()
 }
 ```
 
-### Advanced usage with options
+##### Advanced usage with options
 
 ```php
 use ancor\syntaxLint\SqlSyntaxValidator;
@@ -73,7 +73,7 @@ public function rules()
 
 **Warning:** this validator use php cli. And if php has been not added to $PATH, validator will not work.
 
-#### Basic usage
+##### Basic usage
 
 ```php
 use ancor\syntaxLint\PhpSyntaxValidator;
@@ -86,7 +86,7 @@ public function rules()
 }
 ```
 
-### Advanced usage with options
+##### Advanced usage with options
 
 ```php
 use ancor\syntaxLint\PhpSyntaxValidator;
