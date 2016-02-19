@@ -1,6 +1,6 @@
-# Code Syntax validators for some programming languages in Yii 2
+# Code Syntax validators for Yii 2
 
-## Description
+Check code in some programming languages for syntax errors.
 
 **Currently supported languages:**
 - [php](#php-syntax-validator)
