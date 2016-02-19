@@ -10,7 +10,7 @@ use yii\validators\Validator;
 /**
  * # Usage
  * ```php
- * use ancor\syntaxLint\PhpSyntaxValidator;
+ * use ancor\codeSyntax\PhpSyntaxValidator;
  *
  * public function rules()
  * {
@@ -22,7 +22,7 @@ use yii\validators\Validator;
  *
  * or with options
  * ```php
- * use ancor\syntaxLint\PhpSyntaxValidator;
+ * use ancor\codeSyntax\PhpSyntaxValidator;
  *
  * public function rules()
  * {

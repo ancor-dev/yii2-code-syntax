@@ -11,7 +11,7 @@ use yii\validators\Validator;
 /**
  * # Usage
  * ```php
- * use ancor\syntaxLint\SqlSyntaxValidator;
+ * use ancor\codeSyntax\SqlSyntaxValidator;
  *
  * public function rules()
  * {
@@ -22,7 +22,7 @@ use yii\validators\Validator;
  * ```
  * or with options
  * ```php
- * use ancor\syntaxLint\SqlSyntaxValidator;
+ * use ancor\codeSyntax\SqlSyntaxValidator;
  *
  * public function rules()
  * {

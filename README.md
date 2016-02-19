@@ -43,7 +43,7 @@ to the `require` section of your `composer.json` file.
 ##### Basic usage
 
 ```php
-use ancor\syntaxLint\SqlSyntaxValidator;
+use ancor\codeSyntax\SqlSyntaxValidator;
 public function rules()
 {
     return [
@@ -55,7 +55,7 @@ public function rules()
 ##### Advanced usage with options
 
 ```php
-use ancor\syntaxLint\SqlSyntaxValidator;
+use ancor\codeSyntax\SqlSyntaxValidator;
 public function rules()
 {
     return [
@@ -77,7 +77,7 @@ public function rules()
 ##### Basic usage
 
 ```php
-use ancor\syntaxLint\PhpSyntaxValidator;
+use ancor\codeSyntax\PhpSyntaxValidator;
 
 public function rules()
 {
@@ -90,7 +90,7 @@ public function rules()
 ##### Advanced usage with options
 
 ```php
-use ancor\syntaxLint\PhpSyntaxValidator;
+use ancor\codeSyntax\PhpSyntaxValidator;
 
 public function rules()
 {
