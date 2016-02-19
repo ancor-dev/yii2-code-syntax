@@ -36,7 +36,7 @@ to the `require` section of your `composer.json` file.
 
 1. Get the data from the field model
 2. Wrapping wrapper
-3. Add in the start `EXPLAIN `
+3. Add at the start `EXPLAIN `
 4. Execute sql query
 5. If the returned error, add this errors to validation message
 
