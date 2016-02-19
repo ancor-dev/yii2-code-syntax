@@ -33,6 +33,7 @@ to the `require` section of your `composer.json` file.
 ### Sql Syntax Validator
 
 **Validation occurs as follows:**
+
 1. Get the data from the field model
 2. Wrapping wrapper
 3. Add in the start `EXPLAIN `
