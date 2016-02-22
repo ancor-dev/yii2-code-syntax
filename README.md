@@ -5,6 +5,7 @@ Check code in some programming languages for syntax errors.
 **Currently supported languages:**
 - [php](#php-syntax-validator)
 - [sql](#sql-syntax-validator)
+- [json](#json-syntax-validator)
 
 Feel free to let me know what else you want added via:
 
@@ -104,3 +105,38 @@ public function rules()
     ];
 }
 ```
+
+### Json Syntax Validator
+
+**Warning:** this validator use `json_decode()` php function. And depends on php-json extension.
+
+##### Basic usage
+
+```php
+use ancor\codeSyntax\JsonSyntaxValidator;
+
+public function rules()
+{
+    return [
+       [['jsonCodeField'], JsonSyntaxValidator::className()],
+    ];
+}
+```
+
+##### Advanced usage with options
+
+```php
+use ancor\codeSyntax\JsonSyntaxValidator;
+
+public function rules()
+{
+    return [
+       [
+           ['jsonCodeField'],
+           JsonSyntaxValidator::className(),
+           'message' => 'Field {attribute} has invalid json. Code: {errCode}, Msg: {errMsg}',
+       ],
+    ];
+}
+```
+
